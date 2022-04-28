@@ -1,0 +1,91 @@
+body{
+    background: #84c7ff;
+    font-family: 'Content', Merriweather;
+}
+#wrap_page{
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+#header{
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+#srech{
+    width: 35%;
+    float: right;
+    margin-top: 0.1cm;
+    
+}
+#menu{
+    border-bottom: 2px solid rgb(0, 0, 0);
+  
+}
+#menu ul li{
+    display: inline;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+#left{
+    width: 55%;
+    float: left;
+}
+#right{
+    width: 35%;
+    float: right;
+    margin-top: -3cm;
+}
+h2{
+    font-size: 34px;
+}
+h1{
+    font-size: 68px;
+}
+.contanire
+{
+    padding: 15px 10px;
+}
+.contanire h2
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+textarea
+{
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+input[type="Submit"]; button
+{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="Submit"]
+{
+    color: #fff;
+    background-color: #273c75;
+}
+button
+{
+    color: #333;
+    background-color: transparent;
+}
+.btn
+{
+    display: 10px;
+}
+
